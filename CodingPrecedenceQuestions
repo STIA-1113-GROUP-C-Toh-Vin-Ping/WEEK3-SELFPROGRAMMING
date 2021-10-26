@@ -1,0 +1,27 @@
+package week3SelfProgramming;
+
+public class PresedenceQuestion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double a = 9 / 5;
+		int b = 695 % 20;
+		int c = 7 + 6 * 5;
+		int d = 7 * 6 + 5;
+		int e = 248 % 100 / 5;
+		int f = 6 * 3 - 9 / 4;
+		int g =(5 - 7) * 4;
+		int h =6 + (18 % (17 - 12));
+		System.out.printf("9 / 5 = %.1f%n", a);
+		System.out.println("695 % 20 = " +b);
+		System.out.printf("7 + 6 * 5 = %d%n" ,c);
+		System.out.println("7 * 6 + 5 = " +d);
+		System.out.println("248 % 100 / 5 = " +e);
+		System.out.println("6 * 3 - 9 / 4 = " +f);
+		System.out.println("(5 - 7) * 4 = " +g);
+		System.out.println("6 + (18 % (17 - 12)) = " +h);
+		
+
+	}
+
+}
