@@ -1,0 +1,19 @@
+package week3SelfProgramming;
+
+public class IncrementandDecrement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 5;
+		int y = 3 * ++x;
+		int z = 6 + --x;
+		int a = 4 * x++;
+		int b = 5 * --x;
+		System.out.println(y);
+		System.out.println(z);
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(x);
+	}
+
+}
